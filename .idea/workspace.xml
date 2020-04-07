@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64cd67f-b65f-46f8-a79c-d7af927032e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/person/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/person/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/person/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/person/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/person/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/person/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/person/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/person/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/person/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/person/TeacherTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +56,22 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TeacherTest.should_get_teacher_introduction">
+    <configuration name="PersonTest.should_get_person_introduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelfIntroduction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl.person" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.person.PersonTest" />
+      <option name="METHOD_NAME" value="should_get_person_introduction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest.test_introduce_statement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelfIntroduction" />
       <extension name="coverage">
@@ -102,6 +124,7 @@
       <list>
         <item itemvalue="JUnit.TeacherTest.should_get_teacher_introduction" />
         <item itemvalue="JUnit.StudentTest.should_get_student_introduction" />
+        <item itemvalue="JUnit.PersonTest.should_get_person_introduction" />
         <item itemvalue="JUnit.PersonTest.test_introduce_statement" />
       </list>
     </recent_temporary>
@@ -116,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586240856268</updated>
-      <workItem from="1586240859934" duration="2212000" />
+      <workItem from="1586240859934" duration="4028000" />
     </task>
     <servers />
   </component>
@@ -132,22 +155,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="525" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1586241722710" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1586242999320">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1586244898323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586242999320" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1586242999320">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586244898323" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1586244898323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586242999320" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1586242999320">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586244898323" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1586244898323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586242999320" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1586242999320">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586244898323" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1586244898323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586242999320" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586244898323" />
     <state x="250" y="88" key="Maven.ArtifactSearchDialog" timestamp="1586241865033">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

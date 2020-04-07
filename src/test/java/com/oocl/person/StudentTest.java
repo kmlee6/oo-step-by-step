@@ -8,7 +8,7 @@ public class StudentTest {
 
     @Test
     public void should_get_student_introduction() {
-        final String studentIntroduction = "There is a student who will introduce himself like this: My name is Tom. I am 18 years old. Coding for the glory of OOCL";
+        final String studentIntroduction = "My name is Tom. I am 18 years old. Coding for the glory of OOCL";
         Student student = new Student();
         student.setAge(18);
         student.setName("Tom");
