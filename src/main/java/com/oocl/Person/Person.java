@@ -19,6 +19,8 @@ public class Person {
     }
 
     public String introduce(){
-        return String.format("There is a person who has name and age. He can introduce himself, like: My name is Tom. I am 21 years old.")
+        return String.format("There is a person who has name and age." +
+                " He can introduce himself, " +
+                "like: My name is %s. I am %d years old.", this.getName(), this.getAge());
     }
 }
