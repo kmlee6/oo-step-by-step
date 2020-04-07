@@ -1,4 +1,4 @@
-package com.oocl.Person;
+package com.oocl.person;
 
 public class Student extends Person{
     @Override
