@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64cd67f-b65f-46f8-a79c-d7af927032e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/person/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/person/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oocl/person/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oocl/person/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/person/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/person/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/oocl/person/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/oocl/person/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/person/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/person/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/person/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/person/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/oocl/person/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/oocl/person/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/person/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/person/PersonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/person/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/person/StudentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oocl/person/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/oocl/person/TeacherTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -38,63 +48,69 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/oocl" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.oocl.classroom" />
+      <recent name="" />
       <recent name="com.oocl.person" />
       <recent name="com.oocl.Person" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.oocl.classroom" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.should_get_student_introduction">
-    <configuration name="PersonTest.should_get_person_introduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClassroomTest.should_not_allow_someone_not_belong_to_class_to_be_leader">
+    <configuration name="ClassroomTest.should_not_allow_someone_not_belong_to_class_to_be_leader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelfIntroduction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oocl.person.*" />
+          <option name="PATTERN" value="com.oocl.classroom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oocl.person" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.person.PersonTest" />
-      <option name="METHOD_NAME" value="should_get_person_introduction" />
+      <option name="PACKAGE_NAME" value="com.oocl.classroom" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.classroom.ClassroomTest" />
+      <option name="METHOD_NAME" value="should_not_allow_someone_not_belong_to_class_to_be_leader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.test_introduce_statement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassroomTest.should_not_attend_more_than_one_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelfIntroduction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oocl.person.*" />
+          <option name="PATTERN" value="com.oocl.classroom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oocl.person" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.person.PersonTest" />
-      <option name="METHOD_NAME" value="test_introduce_statement" />
+      <option name="PACKAGE_NAME" value="com.oocl.classroom" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.classroom.ClassroomTest" />
+      <option name="METHOD_NAME" value="should_not_attend_more_than_one_class" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.should_get_student_introduction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassroomTest.should_not_teach_6_classes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelfIntroduction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oocl.person.*" />
+          <option name="PATTERN" value="com.oocl.classroom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.oocl.person" />
-      <option name="MAIN_CLASS_NAME" value="com.oocl.person.StudentTest" />
-      <option name="METHOD_NAME" value="should_get_student_introduction" />
+      <option name="PACKAGE_NAME" value="com.oocl.classroom" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.classroom.ClassroomTest" />
+      <option name="METHOD_NAME" value="should_not_teach_6_classes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,12 +132,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeacherTest.should_say_hello_to_new_student" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SelfIntroduction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oocl.person.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oocl.person" />
+      <option name="MAIN_CLASS_NAME" value="com.oocl.person.TeacherTest" />
+      <option name="METHOD_NAME" value="should_say_hello_to_new_student" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentTest.should_get_student_introduction" />
+        <item itemvalue="JUnit.ClassroomTest.should_not_allow_someone_not_belong_to_class_to_be_leader" />
+        <item itemvalue="JUnit.ClassroomTest.should_not_attend_more_than_one_class" />
+        <item itemvalue="JUnit.ClassroomTest.should_not_teach_6_classes" />
         <item itemvalue="JUnit.TeacherTest.should_get_teacher_introduction" />
-        <item itemvalue="JUnit.PersonTest.should_get_person_introduction" />
-        <item itemvalue="JUnit.PersonTest.test_introduce_statement" />
+        <item itemvalue="JUnit.TeacherTest.should_say_hello_to_new_student" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586240856268</updated>
-      <workItem from="1586240859934" duration="4570000" />
+      <workItem from="1586240859934" duration="17823000" />
     </task>
     <servers />
   </component>
@@ -147,38 +180,62 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="91" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1586241173569" />
-    <state x="525" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586241722710">
+    <state x="525" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1586247515903">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="525" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1586241722710" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1586245467110">
+    <state x="525" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1586247515903" />
+    <state x="521" y="299" width="397" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586254618618">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586245467110" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1586245467110">
+    <state x="521" y="299" width="397" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.860@0.0.1440.860" timestamp="1586254618618" />
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom" timestamp="1586260504055">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586245467110" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1586245467110">
+    <state width="1397" height="206" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586260504055" />
+    <state width="1397" height="206" key="GridCell.Tab.0.center" timestamp="1586260504054">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586245467110" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1586245467110">
+    <state width="1397" height="206" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1586260504054" />
+    <state width="1397" height="206" key="GridCell.Tab.0.left" timestamp="1586260504054">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586245467110" />
+    <state width="1397" height="206" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1586260504054" />
+    <state width="1397" height="206" key="GridCell.Tab.0.right" timestamp="1586260504054">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="206" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1586260504054" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1586260455515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1586260455515" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1586260455515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1586260455515" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1586260455515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1586260455515" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1586260455515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1586260455515" />
     <state x="250" y="88" key="Maven.ArtifactSearchDialog" timestamp="1586241865033">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="250" y="88" key="Maven.ArtifactSearchDialog/0.0.1440.860@0.0.1440.860" timestamp="1586241865033" />
-    <state x="491" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586242993394">
+    <state x="536" y="211" key="chooseDestDirectoryDialog" timestamp="1586254406275">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="491" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.860@0.0.1440.860" timestamp="1586242993394" />
-    <state x="384" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1586245428800">
+    <state x="536" y="211" key="chooseDestDirectoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1586254406275" />
+    <state x="491" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586255373717">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="384" y="263" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1586245428800" />
+    <state x="491" y="150" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.860@0.0.1440.860" timestamp="1586255373717" />
+    <state x="384" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1586255640673">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="384" y="263" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1586255640673" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,18 +243,36 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/oocl/person/PersonTest.java</url>
           <line>9</line>
-          <properties class="com.oocl.person.PersonTest" method="test_introduce_statement">
+          <properties class="com.oocl.person.PersonTest" method="should_get_person_introduction">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/oocl/person/StudentTest.java</url>
-          <line>9</line>
+          <line>10</line>
           <properties class="com.oocl.person.StudentTest" method="should_get_student_introduction">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/oocl/classroom/ClassroomTest.java</url>
+          <line>36</line>
+          <properties class="com.oocl.classroom.ClassroomTest" method="should_not_teach_6_classes">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/oocl/person/StudentTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/oocl/person/StudentTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
